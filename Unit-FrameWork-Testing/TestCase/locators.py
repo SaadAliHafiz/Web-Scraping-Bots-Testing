@@ -5,4 +5,4 @@ class MainPageLocators(object):
     
     
 class SearchResultsPageLocators(object):
-    
+    pass
