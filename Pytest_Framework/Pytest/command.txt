@@ -1,0 +1,4 @@
+pytest test_math_func.py -v-----> detailed summary
+pytest test_math_func.py -------> summary
+
+py.tst -------------------------> runs automatically all tests in test as the prefix of the test file is "test_"
