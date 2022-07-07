@@ -33,4 +33,6 @@ pytest -v --maxfail=2------------> runs all the tests unless tests are unsuccess
 
 -----------------------------------------XX-----------------------------------------------
 
-for using print statements 
+pytest -v -s -------------------->for using print statements 
+
+-----------------------------------------XX-----------------------------------------------
