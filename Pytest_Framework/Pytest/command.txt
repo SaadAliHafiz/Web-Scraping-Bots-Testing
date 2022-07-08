@@ -1,0 +1,36 @@
+pytest test_math_func.py -v-----> detailed summary
+
+-----------------------------------------XX-----------------------------------------------
+
+pytest test_math_func.py -------> summary
+
+-----------------------------------------XX-----------------------------------------------
+
+py.tst -------------------------> runs automatically all tests in test as the prefix of the test file is "test_"
+
+-----------------------------------------XX-----------------------------------------------
+pytest -v -k "keyword"--------------> runs all the test cases having the mentioned keyword
+image.png
+
+-----------------------------------------XX----------------------------------------------
+
+pytest -v -k "add  or str"--------------> runs all the test cases having the mentioned keyword plus the other keyword i.e. str in this case
+image1.png
+-----------------------------------------XX-----------------------------------------------
+pytest -v -k "add  and str"--------------> runs all the test cases having the mentioned keyword with the other keyword i.e. test_math_func.py::test_add_str in this case
+image2.png
+-----------------------------------------XX-----------------------------------------------
+pytest -v -m number --------------> runs with the decorators
+image3.png
+-----------------------------------------XX-----------------------------------------------
+pytest -v -x ---------------------> runs all the tests unless tests are unsuccessful
+image4.png
+-----------------------------------------XX-----------------------------------------------
+inorder to remove the text trace ```pytest -v -x --tb=no```
+-----------------------------------------XX-----------------------------------------------
+
+pytest -v --maxfail=2------------> runs all the tests unless tests are unsuccessful till the threshold of failure of 2
+
+-----------------------------------------XX-----------------------------------------------
+
+for using print statements 
